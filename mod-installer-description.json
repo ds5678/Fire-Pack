@@ -1,0 +1,15 @@
+﻿{
+	"name": "Fire-Pack",
+	"description": "Various fire related modifications",
+	"releases": [
+		{
+			"version": "1.0.0",
+			"dependencies": [
+				{
+					"name": "ModComponent",
+					"version": "^2.6.0"
+				}
+			],
+		}
+	]
+}
