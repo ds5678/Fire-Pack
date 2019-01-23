@@ -433,7 +433,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Audio: Play_CraftingGeneric
-  Minutes: 1
+  Minutes: 2
   YieldNames:
   - GEAR_RecycledCan
   - GEAR_BarkTinder
