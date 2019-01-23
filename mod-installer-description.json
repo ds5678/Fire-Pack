@@ -1,6 +1,6 @@
 ﻿{
 	"name": "Fire-Pack",
-	"description": "Various fire related modifications",
+	"description": "Allows to build an \"Ember Box\" for carrying embers.",
 	"releases": [
 		{
 			"version": "1.0.0",
