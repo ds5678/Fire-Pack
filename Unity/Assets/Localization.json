@@ -1,0 +1,28 @@
+{
+    "GAMEPLAY_EmberBox" : {
+                            "English" : "Ember Box",
+                            "German" : "Glutbüchse"
+    },
+    "GAMEPLAY_EmberBoxDescription" : {
+                            "English" : "A little can with charcoal and birch bark that can be used to carry some embers.",
+                            "German" : "Eine kleine Büchse mit Holzkohle und Birkenrinde, mit der man Glut transportieren kann."
+    },
+    "GAMEPLAY_ActiveEmberBox" : {
+                            "English" : "Smoldering Ember Box",
+                            "German" : "Glimmende Glutbüchse"
+    },
+    "GAMEPLAY_ActiveEmberBoxDescription" : {
+                            "English" : "A little can with some smoldering charcoal.",
+                            "German" : "Eine kleine Büchse mit etwas glimmender Holzkohle."
+    },
+    "GAMEPLAY_BowDrill" : {
+                            "English" : "Bow Drill"
+    },
+    "GAMEPLAY_BowDrillDescription" : {
+                            "English" : "An ancient way of making fire."
+    },
+    "GAMEPLAY_TakeEmbers" : {
+                            "English" : "Take Embers",
+                            "German" : "Glut nehmen"
+    }
+}

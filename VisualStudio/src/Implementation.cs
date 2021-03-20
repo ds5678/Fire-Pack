@@ -1,24 +1,20 @@
 ﻿using UnityEngine;
 using System.Reflection;
 using System.Collections.Generic;
+using MelonLoader;
 
 namespace FirePack
 {
-    internal class Implementation
+    internal class Implementation : MelonMod
     {
-        private static string name;
-
-        public static void OnLoad()
+        public override void OnApplicationStart()
         {
-            AssemblyName assemblyName = Assembly.GetExecutingAssembly().GetName();
-            name = assemblyName.Name;
-
-            Log("Version " + assemblyName.Version);
+            Debug.Log($"[{Info.Name}] Version {Info.Version} loaded!");
         }
 
         internal static void Log(string message)
         {
-            Debug.Log("[" + name + "] " + message);
+            MelonLoader.MelonLogger.Log(message);
         }
     }
 }

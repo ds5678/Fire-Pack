@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>FirePack</RootNamespace>
     <AssemblyName>Fire-Pack</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -29,19 +31,40 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="0Harmony" />
-    <Reference Include="Assembly-CSharp" />
-    <Reference Include="ModComponentAPI" />
-    <Reference Include="System" />
-    <Reference Include="UnityEngine.CoreModule" />
-  </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="src\Implementation.cs" />
     <Compile Include="src\Patches.cs" />
-    <Compile Include="src\TakeEmbers.cs" />
+    <Compile Include="src\TakeEmbersButton.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Il2CppSystem, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MelonLoader.ModHandler, Version=0.2.7.4, Culture=neutral, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ModComponentAPI, Version=4.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />
+    <Reference Include="UnhollowerBaseLib, Version=0.4.10.0, Culture=neutral, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnhollowerRuntimeLib, Version=0.4.10.0, Culture=neutral, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule, Version=3.7.1.6, Culture=neutral, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

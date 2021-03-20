@@ -1,0 +1,18 @@
+{
+    "@type": "ModComponentAPI.ModBlueprint",
+    "RequiredGear": ["GEAR_Softwood","GEAR_GutDried","GEAR_Stick"],
+    "RequiredGearUnits": [1,1,3],
+    "KeroseneLitersRequired": 0,
+    "GunpowderKGRequired": 0,
+    "RequiredTool": "",
+    "OptionalTools": [],
+    "RequiredCraftingLocation": "Anywhere",
+    "RequiresLitFire": false,
+    "RequiresLight": false,
+    "CraftedResult": "GEAR_BowDrill",
+    "CraftedResultCount": 1,
+    "DurationMinutes": 15,
+    "CraftingAudio": "Play_CraftingGeneric",
+    "AppliedSkill" : "None",
+    "ImprovedSkill" : "None"
+}

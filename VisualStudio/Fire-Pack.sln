@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fire-Pack", "Fire-Pack.csproj", "{14D19C5C-BD92-49D7-8C69-B46C78B7CDCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14D19C5C-BD92-49D7-8C69-B46C78B7CDCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14D19C5C-BD92-49D7-8C69-B46C78B7CDCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14D19C5C-BD92-49D7-8C69-B46C78B7CDCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14D19C5C-BD92-49D7-8C69-B46C78B7CDCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CD23328-68B6-4524-86DD-962639AECD14}
+	EndGlobalSection
+EndGlobal
