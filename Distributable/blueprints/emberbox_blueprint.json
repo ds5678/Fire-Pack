@@ -1,7 +1,7 @@
 {
     "@type": "ModComponentAPI.ModBlueprint",
-    "RequiredGear": ["GEAR_RecycledCan","GEAR_Charcoal","GEAR_BarkTinder"],
-    "RequiredGearUnits": [1,1,2],
+    "RequiredGear": ["GEAR_RecycledCan","GEAR_Tinder"],
+    "RequiredGearUnits": [1,4],
     "KeroseneLitersRequired": 0,
     "GunpowderKGRequired": 0,
     "RequiredTool": "",

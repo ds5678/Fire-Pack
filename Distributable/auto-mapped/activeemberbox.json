@@ -29,13 +29,13 @@
                                 "RuinedAfterUse" : false,
                                 "SecondsToIgniteTinder" : 5,
                                 "SecondsToIgniteTorch" : 5,
-                                "SuccessModifier" : 10
+                                "SuccessModifier" : 15
                             },
     "ModHarvestableComponent": {
                                 "Audio" : "Play_CraftingGeneric",
                                 "Minutes" : 2,
-                                "YieldCounts" : [1,1],
-                                "YieldNames" : ["GEAR_RecycledCan","GEAR_BarkTinder"],
+                                "YieldCounts" : [1],
+                                "YieldNames" : ["GEAR_RecycledCan"],
                                 "RequiredToolNames" : []
                             },
     "ModRepairableComponent" : {

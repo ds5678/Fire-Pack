@@ -47,4 +47,25 @@ namespace FirePack
             }
         }
     }
+
+    [HarmonyPatch(typeof(StartGear), "AddAllToInventory")]
+    internal class StartGear_AddAllToInventory
+    {
+        private static void Postfix()
+        {
+            if(Settings.options.noWoodMatches) GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory("GEAR_PackMatches",20);
+        }
+    }
+
+    [HarmonyPatch(typeof(GearItem),"Awake")]
+    internal class DestroyWoodMatches
+	{
+        private static void Postfix(GearItem __instance)
+		{
+            if(Settings.options.noWoodMatches && __instance.name.Replace("(Clone)","") == "GEAR_WoodMatches")
+            {
+                UnityEngine.Object.Destroy(__instance.gameObject);
+			}
+		}
+	}
 }

@@ -33,7 +33,7 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("2.1.0")]
-[assembly: AssemblyFileVersion("2.1.0")]
-[assembly: MelonInfo(typeof(FirePack.Implementation), "Fire-Pack", "2.1.0", "Wulf Marius, ds5678")]
+[assembly: AssemblyVersion("2.2.0")]
+[assembly: AssemblyFileVersion("2.2.0")]
+[assembly: MelonInfo(typeof(FirePack.Implementation), "Fire-Pack", "2.2.0", "Wulf Marius, ds5678")]
 [assembly: MelonGame("Hinterland", "TheLongDark")]

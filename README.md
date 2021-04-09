@@ -20,6 +20,6 @@ I know many people might skip over this, but I hope you don't. You are so specia
 4. Download the latest version of `ModSettings.dll` from its [release page](https://github.com/zeobviouslyfakeacc/ModSettings/releases).
 5. Move `AssetLoader.dll`, `ModComponent.dll`, and `ModSettings.dll` into the Mods folder in your TLD install directory.
 6. Run The Long Dark once. It should generate a subfolder in your mods folder.
-7. Download `Fire-Pack.dll` and `Fire-Pack.zip` from the [releases page](https://github.com/ds5678/Fire-Pack/releases)
+7. Download `Fire-Pack.dll` and `Fire-Pack.modcomponent` from the [releases page](https://github.com/ds5678/Fire-Pack/releases)
 8. Move `Fire-Pack.dll` into your mods folder.
-9. Move `Fire-Pack.zip` into the `ModComponentZips` folder within your mods folder. Do not extract it!
+9. Move `Fire-Pack.modcomponent` into the `ModComponentZips` folder within your mods folder.

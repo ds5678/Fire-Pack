@@ -3,7 +3,7 @@
                                 "DisplayNameLocalizationId" : "GAMEPLAY_BowDrill",
                                 "DescriptionLocalizatonId" : "GAMEPLAY_BowDrillDescription",
                                 "InventoryActionLocalizationId" : "",
-                                "WeightKG": 1,
+                                "WeightKG": 1.5,
                                 "DaysToDecay" : 0,
                                 "MaxHP" : 100,
                                 "InitialCondition" : "Perfect",
@@ -35,7 +35,7 @@
                                 "Audio" : "",
                                 "Minutes" : 1,
                                 "YieldCounts" : [1],
-                                "YieldNames" : ["GEAR_Softwood"],
+                                "YieldNames" : ["GEAR_Hardwood"],
                                 "RequiredToolNames" : []
                             }
 }

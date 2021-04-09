@@ -4,8 +4,8 @@
                             "German" : "Glutbüchse"
     },
     "GAMEPLAY_EmberBoxDescription" : {
-                            "English" : "A little can with charcoal and birch bark that can be used to carry some embers.",
-                            "German" : "Eine kleine Büchse mit Holzkohle und Birkenrinde, mit der man Glut transportieren kann."
+                            "English" : "A little can with charcoal that can be used to carry some embers.",
+                            "German" : "Eine kleine Büchse mit Holzkohle, mit der man Glut transportieren kann."
     },
     "GAMEPLAY_ActiveEmberBox" : {
                             "English" : "Smoldering Ember Box",
