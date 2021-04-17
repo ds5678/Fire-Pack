@@ -1,28 +1,35 @@
-{
+﻿{
     "GAMEPLAY_EmberBox" : {
                             "English" : "Ember Box",
-                            "German" : "Glutb�chse"
+                            "German" : "Glutbüchse",
+                            "Polish" : "Pudełko na żar"
     },
     "GAMEPLAY_EmberBoxDescription" : {
                             "English" : "A little can with charcoal that can be used to carry some embers.",
-                            "German" : "Eine kleine B�chse mit Holzkohle, mit der man Glut transportieren kann."
+                            "German" : "Eine kleine Büchse mit Holzkohle, mit der man Glut transportieren kann.",
+                            "Polish" : "Mała puszka na węgiel drzewny, którą możesz użyć by transportować żar"
     },
     "GAMEPLAY_ActiveEmberBox" : {
                             "English" : "Smoldering Ember Box",
-                            "German" : "Glimmende Glutb�chse"
+                            "German" : "Glimmende Glutbüchse",
+                            "Polish" : "Rozrzażone pudełko"
     },
     "GAMEPLAY_ActiveEmberBoxDescription" : {
                             "English" : "A little can with some smoldering charcoal.",
-                            "German" : "Eine kleine B�chse mit etwas glimmender Holzkohle."
+                            "German" : "Eine kleine Büchse mit etwas glimmender Holzkohle.",
+                            "Polish" : "Mała puszka z rozżarzonym węglem drzewnym"
     },
     "GAMEPLAY_BowDrill" : {
-                            "English" : "Bow Drill"
+                            "English" : "Bow Drill",
+                            "Polish" : "Łuk ogniowy"
     },
     "GAMEPLAY_BowDrillDescription" : {
-                            "English" : "An ancient way of making fire."
+                            "English" : "An ancient way of making fire.",
+                            "Polish" : "Starożytny sposób rozpalania ognia"
     },
     "GAMEPLAY_TakeEmbers" : {
                             "English" : "Take Embers",
-                            "German" : "Glut nehmen"
+                            "German" : "Glut nehmen",
+                            "Polish" : "Weź żar"
     }
 }

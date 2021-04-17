@@ -4,7 +4,7 @@
                             "DescriptionLocalizatonId" : "GAMEPLAY_ActiveEmberBoxDescription",
                             "InventoryActionLocalizationId" : "",
                             "WeightKG": 0.35,
-                            "DaysToDecay" : 0.1,
+                            "DaysToDecay" : 0.2,
                             "MaxHP" : 100,
                             "InitialCondition" : "Perfect",
                             "InventoryCategory" : "Firestarting",
