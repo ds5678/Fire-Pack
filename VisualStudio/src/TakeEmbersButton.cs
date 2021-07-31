@@ -1,55 +1,57 @@
-﻿using Harmony;
-using System.Collections.Generic;
+﻿using HarmonyLib;
 using UnityEngine;
 
 namespace FirePack
 {
-    internal class TakeEmbersButton
-    {
-        internal static string text;
-        private static GameObject button;
+	internal class TakeEmbersButton
+	{
+		internal static string text;
+		private static GameObject button;
 
-        internal static void Execute()
-        {
-            GearItem emberBox = GameManager.GetInventoryComponent().GetBestGearItemWithName("GEAR_EmberBox");
-            if (emberBox == null)
-            {
-                GameAudioManager.PlayGUIError();
-                HUDMessage.AddMessage(Localization.Get("GAMEPLAY_ToolRequiredToForceOpen").Replace("{item-name}", Localization.Get("GAMEPLAY_EmberBox")), false);
-                return;
-            }
+		internal static System.Action GetActionDelegate() => new System.Action(Execute);
 
-            Panel_FeedFire panel = InterfaceManager.m_Panel_FeedFire;
-            Fire fire = panel?.m_Fire;
-            if (fire && !fire.m_IsPerpetual)
-            {
-                fire.ReduceHeatByDegrees(1);
-            }
+		internal static void Execute()
+		{
+			FireUtils.TakeEmbers(InterfaceManager.m_Panel_FeedFire?.m_Fire);
+		}
 
-            GameManager.GetInventoryComponent().DestroyGear(emberBox.gameObject);
-            GearItem activeEmberBox = GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory("GEAR_ActiveEmberBox");
-            GearMessage.AddMessage(activeEmberBox, Localization.Get("GAMEPLAY_Harvested"), activeEmberBox.m_DisplayName, false);
+		internal static void Initialize(Panel_FeedFire panel_FeedFire)
+		{
+			text = Localization.Get("GAMEPLAY_TakeEmbers");
 
-            InterfaceManager.m_Panel_FeedFire.ExitFeedFireInterface();
-        }
+			button = Object.Instantiate<GameObject>(panel_FeedFire.m_ActionButtonObject, panel_FeedFire.m_ActionButtonObject.transform.parent, true);
+			button.transform.Translate(0, 0.09f, 0);
+			Utils.GetComponentInChildren<UILabel>(button).text = text;
+			Il2CppSystem.Collections.Generic.List<EventDelegate> placeHolderList = new Il2CppSystem.Collections.Generic.List<EventDelegate>();
+			placeHolderList.Add(new EventDelegate(new System.Action(Execute)));
+			Utils.GetComponentInChildren<UIButton>(button).onClick = placeHolderList;
 
-        internal static void Initialize(Panel_FeedFire panel_FeedFire)
-        {
-            text = Localization.Get("GAMEPLAY_TakeEmbers");
+			NGUITools.SetActive(button, true);
+		}
 
-            button = Object.Instantiate<GameObject>(panel_FeedFire.m_ActionButtonObject, panel_FeedFire.m_ActionButtonObject.transform.parent, true);
-            button.transform.Translate(0, 0.09f, 0);
-            Utils.GetComponentInChildren<UILabel>(button).text = text;
-            Il2CppSystem.Collections.Generic.List<EventDelegate> placeHolderList = new Il2CppSystem.Collections.Generic.List<EventDelegate>();
-            placeHolderList.Add(new EventDelegate(new System.Action(Execute)));
-            Utils.GetComponentInChildren<UIButton>(button).onClick = placeHolderList;
+		internal static void SetActive(bool active)
+		{
+			NGUITools.SetActive(button, active);
+		}
+	}
 
-            NGUITools.SetActive(button, true);
-        }
+	[HarmonyPatch(typeof(Panel_FeedFire), "Start")]
+	internal class Panel_FeedFire_Start
+	{
+		private static void Postfix(Panel_FeedFire __instance)
+		{
+			TakeEmbersButton.Initialize(__instance);
+		}
+	}
 
-        internal static void SetActive(bool active)
-        {
-            NGUITools.SetActive(button, active);
-        }
-    }
+	[HarmonyPatch(typeof(Panel_FeedFire), "Enable")]
+	internal class Panel_FeedFire_Enable
+	{
+		private static void Postfix(bool enable)
+		{
+			if (!enable) return;
+			if (FireUtils.HasEmberBox()) TakeEmbersButton.SetActive(true);
+			else TakeEmbersButton.SetActive(false);
+		}
+	}
 }

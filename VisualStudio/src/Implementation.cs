@@ -1,21 +1,14 @@
-﻿using UnityEngine;
-using System.Reflection;
-using System.Collections.Generic;
-using MelonLoader;
+﻿using MelonLoader;
+using UnityEngine;
 
 namespace FirePack
 {
-    internal class Implementation : MelonMod
-    {
-        public override void OnApplicationStart()
-        {
-            Debug.Log($"[{Info.Name}] Version {Info.Version} loaded!");
-            Settings.OnLoad();
-        }
-
-        internal static void Log(string message)
-        {
-            MelonLoader.MelonLogger.Log(message);
-        }
-    }
+	internal class Implementation : MelonMod
+	{
+		public override void OnApplicationStart()
+		{
+			Debug.Log($"[{Info.Name}] Version {Info.Version} loaded!");
+			Settings.instance.AddToModSettings("Fire Pack");
+		}
+	}
 }
