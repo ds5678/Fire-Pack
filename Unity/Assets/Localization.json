@@ -2,40 +2,47 @@
     "GAMEPLAY_EmberBox" : {
                             "English" : "Ember Box",
                             "German" : "Glutbüchse",
+                            "Russian" : "Емкость для углей",
                             "Polish" : "Pudełko na żar",
                             "Italian" : "Scatola per tizzoni"
     },
     "GAMEPLAY_EmberBoxDescription" : {
                             "English" : "A little can with charcoal that can be used to carry some embers.",
                             "German" : "Eine kleine Büchse mit Holzkohle, mit der man Glut transportieren kann.",
+                            "Russian" : "Маленькая банка с древесным углем, в которой можно переносить угли.",
                             "Polish" : "Mała puszka na węgiel drzewny, którą możesz użyć by transportować żar",
                             "Italian" : "Una lattina contenente carbone che puo' essere usata per trasportare dei tizzoni."
     },
     "GAMEPLAY_ActiveEmberBox" : {
                             "English" : "Smoldering Ember Box",
                             "German" : "Glimmende Glutbüchse",
+                            "Russian" : "Банка тлеющих углей",
                             "Polish" : "Rozrzażone pudełko",
                             "Italian" : "Scatola per tizzoni fumante"
     },
     "GAMEPLAY_ActiveEmberBoxDescription" : {
                             "English" : "A little can with some smoldering charcoal.",
                             "German" : "Eine kleine Büchse mit etwas glimmender Holzkohle.",
+                            "Russian" : "Банка с тлеющими углями.",
                             "Polish" : "Mała puszka z rozżarzonym węglem drzewnym",
                             "Italian" : "Una lattina contenente dei tizzoni bollenti."
     },
     "GAMEPLAY_BowDrill" : {
                             "English" : "Bow Drill",
+                            "Russian" : "Комплект для разведения огня трением",
                             "Polish" : "Łuk ogniowy",
                             "Italian" : "Trapano ad arco"
     },
     "GAMEPLAY_BowDrillDescription" : {
                             "English" : "An ancient way of making fire.",
+                            "Russian" : "Доисторический метод разведения огня.",
                             "Polish" : "Starożytny sposób rozpalania ognia",
                             "Italian" : "Un metodo antico per accendere il fuoco."
     },
     "GAMEPLAY_TakeEmbers" : {
                             "English" : "Take Embers",
                             "German" : "Glut nehmen",
+                            "Russian" : "Взять угли",
                             "Polish" : "Weź żar",
                             "Italian" : "Prendi tizzoni"
     }
