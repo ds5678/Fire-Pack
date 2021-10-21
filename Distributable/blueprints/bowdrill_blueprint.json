@@ -1,5 +1,5 @@
 {
-    "@type": "ModComponentAPI.ModBlueprint",
+    "Name": "Bow Drill",
     "RequiredGear": ["GEAR_Hardwood","GEAR_GutDried","GEAR_Stick"],
     "RequiredGearUnits": [1,1,3],
     "KeroseneLitersRequired": 0,

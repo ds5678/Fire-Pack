@@ -21,9 +21,9 @@
                             "NormalModel" : "",
                             "InspectModel" : ""
     },
-    "ModHarvestableComponent": {
+    "ModHarvestableBehaviour": {
                                 "Audio" : "Play_CraftingGeneric",
-                                "Minutes" : 2,
+                                "Minutes" : 1,
                                 "YieldCounts" : [1,4],
                                 "YieldNames" : ["GEAR_RecycledCan","GEAR_Tinder"],
                                 "RequiredToolNames" : []

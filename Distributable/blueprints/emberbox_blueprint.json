@@ -1,5 +1,5 @@
 {
-    "@type": "ModComponentAPI.ModBlueprint",
+    "Name": "Ember Box",
     "RequiredGear": ["GEAR_RecycledCan","GEAR_Tinder"],
     "RequiredGearUnits": [1,4],
     "KeroseneLitersRequired": 0,

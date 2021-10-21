@@ -21,7 +21,7 @@
                             "NormalModel" : "",
                             "InspectModel" : ""
     },
-    "ModFireStarterComponent" : {
+    "ModFireStarterBehaviour" : {
                                 "DestroyedOnUse" : false,
                                 "NumberOfUses" : 0,
                                 "OnUseSoundEvent" : "",
@@ -29,16 +29,17 @@
                                 "RuinedAfterUse" : false,
                                 "SecondsToIgniteTinder" : 5,
                                 "SecondsToIgniteTorch" : 5,
-                                "SuccessModifier" : 15
+                                "SuccessModifier" : 15,
+                                "DurationOffset" : 0
                             },
-    "ModHarvestableComponent": {
+    "ModHarvestableBehaviour": {
                                 "Audio" : "Play_CraftingGeneric",
-                                "Minutes" : 2,
+                                "Minutes" : 1,
                                 "YieldCounts" : [1],
                                 "YieldNames" : ["GEAR_RecycledCan"],
                                 "RequiredToolNames" : []
                             },
-    "ModRepairableComponent" : {
+    "ModRepairableBehaviour" : {
                                 "Audio" : "Play_CraftingGeneric",
                                 "Minutes" : 1,
                                 "Condition" : 50,

@@ -35,11 +35,12 @@ namespace FirePack
 		}
 	}
 
-	[HarmonyPatch(typeof(Panel_FeedFire), "Start")]
-	internal class Panel_FeedFire_Start
+	[HarmonyPatch(typeof(Panel_FeedFire), "Initialize")]
+	internal class Panel_FeedFire_Initialize
 	{
 		private static void Postfix(Panel_FeedFire __instance)
 		{
+			//MelonLoader.MelonLogger.Msg("FeedFire_Initialize");
 			TakeEmbersButton.Initialize(__instance);
 		}
 	}
@@ -49,6 +50,7 @@ namespace FirePack
 	{
 		private static void Postfix(bool enable)
 		{
+			//MelonLoader.MelonLogger.Msg("FeedFire_Enable");
 			if (!enable) return;
 			if (FireUtils.HasEmberBox()) TakeEmbersButton.SetActive(true);
 			else TakeEmbersButton.SetActive(false);
