@@ -13,7 +13,7 @@
                             "Russian" : "Маленькая банка с древесным углем, в которой можно переносить угли.",
                             "Polish" : "Mała puszka na węgiel drzewny, którą możesz użyć by transportować żar",
                             "Italian" : "Una lattina contenente carbone che puo' essere usata per trasportare dei tizzoni."
-                            "Japanese"  : "種火を持ち運ぶために使える燃料入の小さい缶。",
+                            "Japanese"  : "種火を持ち運ぶために使える木炭入の小さい缶。",
     },
     "GAMEPLAY_ActiveEmberBox" : {
                             "English" : "Smoldering Ember Box",
@@ -43,7 +43,7 @@
                             "Russian" : "Доисторический метод разведения огня.",
                             "Polish" : "Starożytny sposób rozpalania ognia",
                             "Italian" : "Un metodo antico per accendere il fuoco."
-                            "Japanese"  : "火をおこす昔からの方法。",
+                            "Japanese"  : "古来からの火おこし方法。",
     },
     "GAMEPLAY_TakeEmbers" : {
                             "English" : "Take Embers",
