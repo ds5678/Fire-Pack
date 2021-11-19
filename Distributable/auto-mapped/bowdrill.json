@@ -21,7 +21,7 @@
                                 "NormalModel" : "",
                                 "InspectModel" : ""
                             },
-    "ModFireStarterComponent" : {
+    "ModFireStarterBehaviour" : {
                                 "DestroyedOnUse" : false,
                                 "NumberOfUses" : 10,
                                 "OnUseSoundEvent" : "",
@@ -29,9 +29,10 @@
                                 "RuinedAfterUse" : false,
                                 "SecondsToIgniteTinder" : 7,
                                 "SecondsToIgniteTorch" : 7,
-                                "SuccessModifier" : -10
+                                "SuccessModifier" : -10,
+                                "DurationOffset" : 0
                             },
-    "ModHarvestableComponent": {
+    "ModHarvestableBehaviour": {
                                 "Audio" : "",
                                 "Minutes" : 1,
                                 "YieldCounts" : [1],
