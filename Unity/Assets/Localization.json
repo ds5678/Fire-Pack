@@ -1,56 +1,63 @@
-﻿{
-    "GAMEPLAY_EmberBox" : {
-                            "English" : "Ember Box",
-                            "German" : "Glutbüchse",
-                            "Russian" : "Емкость для углей",
-                            "Polish" : "Pudełko na żar",
-                            "Italian" : "Scatola per tizzoni",
-                            "Japanese"  : "種火入れ"
-    },
-    "GAMEPLAY_EmberBoxDescription" : {
-                            "English" : "A little can with charcoal that can be used to carry some embers.",
-                            "German" : "Eine kleine Büchse mit Holzkohle, mit der man Glut transportieren kann.",
-                            "Russian" : "Маленькая банка с древесным углем, в которой можно переносить угли.",
-                            "Polish" : "Mała puszka na węgiel drzewny, którą możesz użyć by transportować żar",
-                            "Italian" : "Una lattina contenente carbone che puo' essere usata per trasportare dei tizzoni.",
-                            "Japanese"  : "種火を持ち運ぶために使える木炭入の小さい缶。"
-    },
-    "GAMEPLAY_ActiveEmberBox" : {
-                            "English" : "Smoldering Ember Box",
-                            "German" : "Glimmende Glutbüchse",
-                            "Russian" : "Банка тлеющих углей",
-                            "Polish" : "Rozrzażone pudełko",
-                            "Italian" : "Scatola per tizzoni fumante",
-                            "Japanese"  : "くすぶっている種火入れ"
-    },
-    "GAMEPLAY_ActiveEmberBoxDescription" : {
-                            "English" : "A little can with some smoldering charcoal.",
-                            "German" : "Eine kleine Büchse mit etwas glimmender Holzkohle.",
-                            "Russian" : "Банка с тлеющими углями.",
-                            "Polish" : "Mała puszka z rozżarzonym węglem drzewnym",
-                            "Italian" : "Una lattina contenente dei tizzoni bollenti.",
-                            "Japanese"  : "種火がくすぶっている小さい缶。"
-    },
-    "GAMEPLAY_BowDrill" : {
-                            "English" : "Bow Drill",
-                            "Russian" : "Комплект для разведения огня трением",
-                            "Polish" : "Łuk ogniowy",
-                            "Italian" : "Trapano ad arco",
-                            "Japanese"  : "弓錐"
-    },
-    "GAMEPLAY_BowDrillDescription" : {
-                            "English" : "An ancient way of making fire.",
-                            "Russian" : "Доисторический метод разведения огня.",
-                            "Polish" : "Starożytny sposób rozpalania ognia",
-                            "Italian" : "Un metodo antico per accendere il fuoco.",
-                            "Japanese"  : "古来からの火おこし方法。"
-    },
-    "GAMEPLAY_TakeEmbers" : {
-                            "English" : "Take Embers",
-                            "German" : "Glut nehmen",
-                            "Russian" : "Взять угли",
-                            "Polish" : "Weź żar",
-                            "Italian" : "Prendi tizzoni",
-                            "Japanese"  : "種火を取る"
-    }
-} 
+{
+	"GAMEPLAY_EmberBox": {
+		"English": "Ember Box",
+		"German": "Glutbüchse",
+		"Russian": "Емкость для углей",
+		"Polish": "Pudełko na żar",
+		"Italian": "Scatola per tizzoni",
+		"Japanese": "種火入れ",
+		"Simplified Chinese": "余烬罐"
+	},
+	"GAMEPLAY_EmberBoxDescription": {
+		"English": "A little can with charcoal that can be used to carry some embers.",
+		"German": "Eine kleine Büchse mit Holzkohle, mit der man Glut transportieren kann.",
+		"Russian": "Маленькая банка с древесным углем, в которой можно переносить угли.",
+		"Polish": "Mała puszka na węgiel drzewny, którą możesz użyć by transportować żar",
+		"Italian": "Una lattina contenente carbone che puo' essere usata per trasportare dei tizzoni.",
+		"Japanese": "種火を持ち運ぶために使える木炭入の小さい缶。",
+		"Simplified Chinese": "一个装有木炭的小罐子，可以用来装一些余烬。"
+	},
+	"GAMEPLAY_ActiveEmberBox": {
+		"English": "Smoldering Ember Box",
+		"German": "Glimmende Glutbüchse",
+		"Russian": "Банка тлеющих углей",
+		"Polish": "Rozrzażone pudełko",
+		"Italian": "Scatola per tizzoni fumante",
+		"Japanese": "くすぶっている種火入れ",
+		"Simplified Chinese": "余烬罐"
+	},
+	"GAMEPLAY_ActiveEmberBoxDescription": {
+		"English": "A little can with some smoldering charcoal.",
+		"German": "Eine kleine Büchse mit etwas glimmender Holzkohle.",
+		"Russian": "Банка с тлеющими углями.",
+		"Polish": "Mała puszka z rozżarzonym węglem drzewnym",
+		"Italian": "Una lattina contenente dei tizzoni bollenti.",
+		"Japanese": "種火がくすぶっている小さい缶。",
+		"Simplified Chinese": "带有余烬的余烬罐。"
+	},
+	"GAMEPLAY_BowDrill": {
+		"English": "Bow Drill",
+		"Russian": "Комплект для разведения огня трением",
+		"Polish": "Łuk ogniowy",
+		"Italian": "Trapano ad arco",
+		"Japanese": "弓錐",
+		"Simplified Chinese": "弓钻"
+	},
+	"GAMEPLAY_BowDrillDescription": {
+		"English": "An ancient way of making fire.",
+		"Russian": "Доисторический метод разведения огня.",
+		"Polish": "Starożytny sposób rozpalania ognia",
+		"Italian": "Un metodo antico per accendere il fuoco.",
+		"Japanese": "古来からの火おこし方法。",
+		"Simplified Chinese": "钻木取火，古代人类才会用的方法。"
+	},
+	"GAMEPLAY_TakeEmbers": {
+		"English": "Take Embers",
+		"German": "Glut nehmen",
+		"Russian": "Взять угли",
+		"Polish": "Weź żar",
+		"Italian": "Prendi tizzoni",
+		"Japanese": "種火を取る",
+		"Simplified Chinese": "取余烬"
+	}
+}
