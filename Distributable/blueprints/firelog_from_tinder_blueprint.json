@@ -1,0 +1,18 @@
+{
+    "Name": "Fire Log From Tinder",
+    "RequiredGear": ["GEAR_Tinder"],
+    "RequiredGearUnits": [40],
+    "KeroseneLitersRequired": 0.05,
+    "GunpowderKGRequired": 0,
+    "RequiredTool": "",
+    "OptionalTools": [],
+    "RequiredCraftingLocation": "Anywhere",
+    "RequiresLitFire": false,
+    "RequiresLight": false,
+    "CraftedResult": "GEAR_Firelog",
+    "CraftedResultCount": 1,
+    "DurationMinutes": 20,
+    "CraftingAudio": "Play_CraftingGeneric",
+    "AppliedSkill" : "None",
+    "ImprovedSkill" : "None"
+}

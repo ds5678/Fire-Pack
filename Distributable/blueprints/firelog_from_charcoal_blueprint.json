@@ -1,0 +1,18 @@
+{
+    "Name": "Fire Log From Charcoal",
+    "RequiredGear": ["GEAR_Charcoal"],
+    "RequiredGearUnits": [20],
+    "KeroseneLitersRequired": 0.05,
+    "GunpowderKGRequired": 0,
+    "RequiredTool": "",
+    "OptionalTools": [],
+    "RequiredCraftingLocation": "Anywhere",
+    "RequiresLitFire": false,
+    "RequiresLight": false,
+    "CraftedResult": "GEAR_Firelog",
+    "CraftedResultCount": 1,
+    "DurationMinutes": 20,
+    "CraftingAudio": "Play_CraftingGeneric",
+    "AppliedSkill" : "None",
+    "ImprovedSkill" : "None"
+}
