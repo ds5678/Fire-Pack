@@ -34,7 +34,7 @@
                             },
     "ModHarvestableBehaviour": {
                                 "Audio" : "Play_CraftingGeneric",
-                                "Minutes" : 1,
+                                "Minutes" : 5,
                                 "YieldCounts" : [1],
                                 "YieldNames" : ["GEAR_RecycledCan"],
                                 "RequiredToolNames" : []
